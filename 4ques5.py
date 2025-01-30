@@ -1,0 +1,11 @@
+import numpy as np
+UCS420_arshdeep=np.array([[10,20,30,40],[50,60,70,80],[90,15,20,35]])
+print(np.mean(UCS420_arshdeep))
+print(np.median(UCS420_arshdeep))
+print(np.max(UCS420_arshdeep))
+print(np.min(UCS420_arshdeep))
+print(np.unique(UCS420_arshdeep))
+Reshaped_UCS420_arshdeep=UCS420_arshdeep.reshape(4,3)
+print(Reshaped_UCS420_arshdeep)
+resize_UCS420_arshdeep=np.resize(UCS420_arshdeep,(2,3))
+print(resize_UCS420_arshdeep)
